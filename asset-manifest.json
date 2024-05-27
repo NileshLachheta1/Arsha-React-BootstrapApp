@@ -1,28 +1,35 @@
 {
   "files": {
     "main.css": "/Arsha-React-BootstrapApp/static/css/main.6c60587a.css",
-    "main.js": "/Arsha-React-BootstrapApp/static/js/main.a2cf892a.js",
+    "main.js": "/Arsha-React-BootstrapApp/static/js/main.bd0568dc.js",
     "static/media/fa-solid-900.ttf": "/Arsha-React-BootstrapApp/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/Arsha-React-BootstrapApp/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/fa-solid-900.woff2": "/Arsha-React-BootstrapApp/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
     "static/media/fa-brands-400.woff2": "/Arsha-React-BootstrapApp/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/about-img.jpg": "/Arsha-React-BootstrapApp/static/media/about-img.149c2a9015541bea14dc.jpg",
+    "static/media/feature.png": "/Arsha-React-BootstrapApp/static/media/feature.d7ff5c4008124776dec5.png",
     "static/media/why-us.png": "/Arsha-React-BootstrapApp/static/media/why-us.0b38b56dc7642af4e0af.png",
     "static/media/banner.png": "/Arsha-React-BootstrapApp/static/media/banner.593960b6732e1ce54f2b.png",
     "static/media/fa-regular-400.ttf": "/Arsha-React-BootstrapApp/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
     "static/media/team-2.jpg": "/Arsha-React-BootstrapApp/static/media/team-2.b2008acdf74612d89b8f.jpg",
     "static/media/skills.png": "/Arsha-React-BootstrapApp/static/media/skills.d55a75f7c955e52bc346.png",
     "static/media/team-1.jpg": "/Arsha-React-BootstrapApp/static/media/team-1.30c859cd9a02bb5dcc9a.jpg",
+    "static/media/newsletter.png": "/Arsha-React-BootstrapApp/static/media/newsletter.a915e5ce6dce895fbddf.png",
     "static/media/team-3.jpg": "/Arsha-React-BootstrapApp/static/media/team-3.ca581ae1628e295ec2a0.jpg",
+    "static/media/team-14.jpg": "/Arsha-React-BootstrapApp/static/media/team-14.48be1ce6f373df362a1a.jpg",
     "static/media/team-4.jpg": "/Arsha-React-BootstrapApp/static/media/team-4.525dee063b26d6a44d1d.jpg",
     "static/media/fa-regular-400.woff2": "/Arsha-React-BootstrapApp/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/team-13.jpg": "/Arsha-React-BootstrapApp/static/media/team-13.a389dc93123551d2203c.jpg",
+    "static/media/team-12.jpg": "/Arsha-React-BootstrapApp/static/media/team-12.34a3520b4d8a9e6d110a.jpg",
+    "static/media/team-11.jpg": "/Arsha-React-BootstrapApp/static/media/team-11.b97a360b22162cdd223f.jpg",
     "static/media/fa-v4compatibility.ttf": "/Arsha-React-BootstrapApp/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/Arsha-React-BootstrapApp/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/Arsha-React-BootstrapApp/index.html",
     "main.6c60587a.css.map": "/Arsha-React-BootstrapApp/static/css/main.6c60587a.css.map",
-    "main.a2cf892a.js.map": "/Arsha-React-BootstrapApp/static/js/main.a2cf892a.js.map"
+    "main.bd0568dc.js.map": "/Arsha-React-BootstrapApp/static/js/main.bd0568dc.js.map"
   },
   "entrypoints": [
     "static/css/main.6c60587a.css",
-    "static/js/main.a2cf892a.js"
+    "static/js/main.bd0568dc.js"
   ]
 }
