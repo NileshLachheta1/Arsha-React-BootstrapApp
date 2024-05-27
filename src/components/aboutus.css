@@ -1,0 +1,129 @@
+     /********** Template CSS **********/
+     :root {
+        --primary: #2471A3;
+        --secondary: #15ACE1;
+        --light: #F4F7FE;
+        --dark: #14183E;
+    }
+
+    .back-to-top {
+        position: fixed;
+        display: none;
+        right: 45px;
+        bottom: 45px;
+        z-index: 99;
+    }
+
+    /*** Heading ***/
+    h1,
+    h2,
+    h3,
+    .fw-bold {
+        font-weight: 700 !important;
+    }
+
+    h4,
+    h5,
+    h6,
+    .fw-medium {
+        font-weight: 500 !important;
+    }
+
+
+    /*** Button ***/
+    .btn {
+        font-weight: 500;
+        transition: .5s;
+    }
+
+    .btn-square {
+        width: 38px;
+        height: 38px;
+    }
+
+    .btn-sm-square {
+        width: 32px;
+        height: 32px;
+    }
+
+    .btn-lg-square {
+        width: 48px;
+        height: 48px;
+    }
+
+    .btn-square,
+    .btn-sm-square,
+    .btn-lg-square {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: normal;
+        border-radius: 50px;
+    }
+
+
+    /*** About ***/
+    .about-img {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .about-img::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        /* background: url(../img/bg-about-img.png) top left no-repeat; */
+        background-size: contain;
+    }
+
+    /*** Feature ***/
+    .feature {
+        /* background: url(../img/bg-hero.png) center center no-repeat; */
+        background-size: cover;
+    }
+
+
+    /*** Newsletter ***/
+    .newsletter {
+        /* background: url(../img/bg-hero.png) center center no-repeat; */
+        background-size: cover;
+    }
+
+    @media (min-width: 992px) {
+        .newsletter .container {
+            max-width: 100% !important;
+        }
+
+        .newsletter .newsletter-text  {
+            padding-right: calc(((100% - 960px) / 2) + .75rem);
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .newsletter .newsletter-text  {
+            padding-right: calc(((100% - 1140px) / 2) + .75rem);
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .newsletter .newsletter-text  {
+            padding-right: calc(((100% - 1320px) / 2) + .75rem);
+        }
+    }
+
+
+    /*** Team ***/
+    .team-item {
+        transition: .5s;
+        border: 1px solid transparent;
+        transition: .5s;
+    }
+
+    .team-item:hover {
+
+        border-color: var(--primary);
+    }
