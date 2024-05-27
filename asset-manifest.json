@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Arsha-React-BootstrapApp/static/css/main.6c60587a.css",
-    "main.js": "/Arsha-React-BootstrapApp/static/js/main.bd0568dc.js",
+    "main.js": "/Arsha-React-BootstrapApp/static/js/main.f0f932cb.js",
     "static/media/fa-solid-900.ttf": "/Arsha-React-BootstrapApp/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/Arsha-React-BootstrapApp/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/fa-solid-900.woff2": "/Arsha-React-BootstrapApp/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
@@ -26,10 +26,10 @@
     "static/media/fa-v4compatibility.woff2": "/Arsha-React-BootstrapApp/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/Arsha-React-BootstrapApp/index.html",
     "main.6c60587a.css.map": "/Arsha-React-BootstrapApp/static/css/main.6c60587a.css.map",
-    "main.bd0568dc.js.map": "/Arsha-React-BootstrapApp/static/js/main.bd0568dc.js.map"
+    "main.f0f932cb.js.map": "/Arsha-React-BootstrapApp/static/js/main.f0f932cb.js.map"
   },
   "entrypoints": [
     "static/css/main.6c60587a.css",
-    "static/js/main.bd0568dc.js"
+    "static/js/main.f0f932cb.js"
   ]
 }
