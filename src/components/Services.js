@@ -174,7 +174,7 @@ function Service(){
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial-item ps-5">
+                        {/* <div class="testimonial-item ps-5">
                             <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
                             <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
                             <div class="d-flex align-items-center">
@@ -185,7 +185,7 @@ function Service(){
                                     <span>Profession</span>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
