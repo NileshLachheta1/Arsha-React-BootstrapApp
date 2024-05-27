@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
-// import 'owl.carousel/dist/assets/owl.carousel.css';
-// import 'owl.carousel';
+
 import 'wowjs/css/libs/animate.css';
 import WOW from 'wowjs';
 import './services.css';
+import testimonial1 from '../images/testimonial-1.jpg'
+import testimonial2 from '../images/testimonial-2.jpg'
 function Service(){
   const [searchModalVisible, setSearchModalVisible] = useState(false);
 
@@ -154,7 +155,7 @@ function Service(){
                             <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
                             <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="http://127.0.0.1:55871/img/testimonial-1.jpg"
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src={testimonial1}
                                     style={{width: "60px", height: "60px"}} />
                                 <div class="ps-3">
                                     <h5 class="mb-1">Client Name</h5>
@@ -166,7 +167,7 @@ function Service(){
                             <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
                             <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="http://127.0.0.1:55871/img/testimonial-2.jpg"
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src={testimonial2}
                                     style={{width: "60px", height: "60px"}}/>
                                 <div class="ps-3">
                                     <h5 class="mb-1">Client Name</h5>

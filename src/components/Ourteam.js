@@ -2,7 +2,7 @@ import tem1 from '../images/team-1.jpg'
 import tem2 from '../images/team-2.jpg'
 import tem3 from '../images/team-3.jpg'
 import tem4 from '../images/team-4.jpg'
-
+import newsletter from '../images/newsletter.png'
 
 function OurTeam(){
     return (
@@ -99,7 +99,7 @@ function OurTeam(){
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
-                    <img class="img-fluid" src="http://127.0.0.1:55871/img/newsletter.png" alt=""/>
+                    <img class="img-fluid" src={newsletter} alt=""/>
                 </div>
                 <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
                     <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Newsletter</div>

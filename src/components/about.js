@@ -2,6 +2,12 @@ import React from 'react';
 import './aboutus.css'; // You can add the custom styles here
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import aboutimg from '../images/about-img.jpg';
+import feature from '../images/feature.png';
+import team1 from '../images/team-11.jpg';
+import team2 from '../images/team-12.jpg';
+import team3 from '../images/team-13.jpg';
+import team4 from '../images/team-14.jpg';
 
 const Aboutus = () => {
   return (
@@ -30,7 +36,7 @@ const Aboutus = () => {
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
               <div className="about-img">
-                <img className="img-fluid" src="http://127.0.0.1:55871/img/about-img.jpg" alt="About Us" />
+                <img className="img-fluid" src={aboutimg} alt="About Us" />
               </div>
             </div>
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -113,7 +119,7 @@ const Aboutus = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
-              <img className="img-fluid" src="http://127.0.0.1:55871/img/feature.png" alt="Feature" />
+              <img className="img-fluid" src={feature} alt="Feature" />
             </div>
           </div>
         </div>
@@ -139,7 +145,7 @@ const Aboutus = () => {
                             <div class="row g-4">
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
                                     <div class="team-item bg-white text-center rounded p-4 pt-0">
-                                        <img class="img-fluid rounded-circle p-4" src="http://127.0.0.1:55871/img/team-1.jpg" alt=""/>
+                                        <img class="img-fluid rounded-circle p-4" src={team1} alt=""/>
                                         <h5 class="mb-0">Boris Johnson</h5>
                                         <small>Founder & CEO</small>
                                         <div class="d-flex justify-content-center mt-3">
@@ -156,7 +162,7 @@ const Aboutus = () => {
                                 </div>
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
                                     <div class="team-item bg-white text-center rounded p-4 pt-0">
-                                        <img class="img-fluid rounded-circle p-4" src="http://127.0.0.1:55871/img/team-3.jpg" alt=""/>
+                                        <img class="img-fluid rounded-circle p-4" src={team3} alt=""/>
                                         <h5 class="mb-0">Adam Crew</h5>
                                         <small>Executive Manager</small>
                                         <div class="d-flex justify-content-center mt-3">
@@ -177,7 +183,7 @@ const Aboutus = () => {
                             <div class="row g-4">
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
                                     <div class="team-item bg-white text-center rounded p-4 pt-0">
-                                        <img class="img-fluid rounded-circle p-4" src="http://127.0.0.1:55871/img/team-2.jpg" alt=""/>
+                                        <img class="img-fluid rounded-circle p-4" src={team2} alt=""/>
                                         <h5 class="mb-0">Kate Winslet</h5>
                                         <small>Co Founder</small>
                                         <div class="d-flex justify-content-center mt-3">
@@ -194,7 +200,7 @@ const Aboutus = () => {
                                 </div>
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
                                     <div class="team-item bg-white text-center rounded p-4 pt-0">
-                                        <img class="img-fluid rounded-circle p-4" src="http://127.0.0.1:55871/img/team-2.jpg" alt=""/>
+                                        <img class="img-fluid rounded-circle p-4" src={team4} alt=""/>
                                         <h5 class="mb-0">Cody Gardner</h5>
                                         <small>Project Manager</small>
                                         <div class="d-flex justify-content-center mt-3">
