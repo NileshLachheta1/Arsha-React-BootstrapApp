@@ -7,7 +7,7 @@ import newsletter from '../images/newsletter.png'
 function OurTeam(){
     return (
         <>
-            <div className="container-fluid mt-5" id="ourteam">
+            {/* <div className="container-fluid mt-5" id="ourteam">
                 <div className="container">
                     <div className="row">
                         <h1 className="text-center " style={{color : "#154360 "}}>Our Team</h1>
@@ -93,7 +93,7 @@ function OurTeam(){
                         </div>
                     </div>
                  </div>
-            </div>
+            </div> */}
             {/* <!-- Newsletter Start --> */}
     <div class="container-fluid newsletter py-5" style={{backgroundColor:"#2471A3"}}>
         <div class="container">
